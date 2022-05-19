@@ -110,9 +110,8 @@ def mostrar_movimientos(driver: webdriver, correo: str, lista_movimientos):
     print("Mostrar movimientos: ", correo)
     for movimiento in lista_movimientos:
         if movimiento.email == correo:
-            mensaje += movimiento.__str__()+"\n"
+            mensaje += movimiento.__str__() + "\n"
 
     print("Movimientos totales:", mensaje)
 
     enviar_mensaje(driver, mensaje)
-

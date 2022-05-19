@@ -9,8 +9,3 @@ class Movimiento:
 
     def __str__(self):
         return f"{self.codigo_operacion}; {self.nombre_operacion}; {self.estado_operacion}"
-
-
-# class Operacion:
-#     def __init__(self, cod_operacion, nombre_operacion, estadp_operacion):
-#         pass
