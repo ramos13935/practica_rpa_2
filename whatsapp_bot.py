@@ -9,14 +9,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
-"""
-Antes de empezar debes abrir la powershell e ir a la carpeta dónde esté instalado chrome
- cd C:\"Program Files"\Google\Chrome\Application
-Después hay que ejecutar chrome con este comando
- .\chrome.exe --remote-debugging-port=9999 --user-data-dir="C:\test"
-
-"""
-
 
 def start(lista_movimientos):
     driver = abrir_navegador()
